@@ -1,0 +1,11 @@
+/* Note : This is a quick hack while we make something more secure in iTop 2.4 */
+
+/* We hide all transition buttons for all classes / states */
+.form_buttons .form_btn_transitions .form_btn_transition {
+    display: none;
+}
+/* Then we autorize only those for ev_reopen and ev_close events */
+.form_buttons .form_btn_transitions .form_btn_transition[value='ev_reopen'],
+.form_buttons .form_btn_transitions .form_btn_transition[value='ev_close'] {
+    display: inline-block;
+}
