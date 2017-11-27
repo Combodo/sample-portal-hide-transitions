@@ -1,0 +1,1 @@
+Note: Deprecated as of iTop 2.4 as we can now specify which transitions to deny for which profiles.
